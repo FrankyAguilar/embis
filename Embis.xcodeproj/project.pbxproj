@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB35E2B21687C0F00C5520F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB35E2A21687C0F00C5520F /* AppDelegate.swift */; };
+		2FB35E2D21687C0F00C5520F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB35E2C21687C0F00C5520F /* ViewController.swift */; };
+		2FB35E3021687C0F00C5520F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB35E2E21687C0F00C5520F /* Main.storyboard */; };
+		2FB35E3221687C1100C5520F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB35E3121687C1100C5520F /* Assets.xcassets */; };
+		2FB35E3521687C1100C5520F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB35E3321687C1100C5520F /* LaunchScreen.storyboard */; };
+		2FB35E4021687C1100C5520F /* EmbisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB35E3F21687C1100C5520F /* EmbisTests.swift */; };
+		2FB35E4B21687C1100C5520F /* EmbisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB35E4A21687C1100C5520F /* EmbisUITests.swift */; };
+		2FB35E5A21687CAB00C5520F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB35E5921687CAB00C5520F /* CoreLocation.framework */; };
+		2FB35E5C21687CAF00C5520F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB35E5B21687CAF00C5520F /* CoreBluetooth.framework */; };
+		2FB35E5F21687D4200C5520F /* iBeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB35E5E21687D4200C5520F /* iBeaconManager.swift */; };
+		2FF18F9221692CAA00B24461 /* ListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF18F9121692CAA00B24461 /* ListenViewController.swift */; };
+		2FF18F9421692CBD00B24461 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF18F9321692CBD00B24461 /* BroadcastViewController.swift */; };
+		2FF18F9621694E1C00B24461 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF18F9521694E1C00B24461 /* MultipeerConnectivity.framework */; };
+		2FF18F9821695DED00B24461 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF18F9721695DED00B24461 /* MessageService.swift */; };
+		4084B56FCA6E6A2E65842E7D /* Pods_EmbisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C504081915648C2793E2D963 /* Pods_EmbisTests.framework */; };
+		9570907984BC3A78F33AEEDD /* Pods_Embis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0350CD695724D06DAB7952C /* Pods_Embis.framework */; };
+		960669C2C8CF0FCE9E731567 /* Pods_EmbisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7FADD29403BE00E0EE26E3 /* Pods_EmbisUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB35E3C21687C1100C5520F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB35E1F21687C0F00C5520F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB35E2621687C0F00C5520F;
+			remoteInfo = Embis;
+		};
+		2FB35E4721687C1100C5520F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB35E1F21687C0F00C5520F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB35E2621687C0F00C5520F;
+			remoteInfo = Embis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E7FADD29403BE00E0EE26E3 /* Pods_EmbisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmbisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1055F7B01A9529E35B3A1D0D /* Pods-Embis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Embis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Embis/Pods-Embis.debug.xcconfig"; sourceTree = "<group>"; };
+		2FB35E2721687C0F00C5520F /* Embis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Embis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB35E2A21687C0F00C5520F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FB35E2C21687C0F00C5520F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FB35E2F21687C0F00C5520F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FB35E3121687C1100C5520F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB35E3421687C1100C5520F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FB35E3621687C1100C5520F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB35E3B21687C1100C5520F /* EmbisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB35E3F21687C1100C5520F /* EmbisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbisTests.swift; sourceTree = "<group>"; };
+		2FB35E4121687C1100C5520F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB35E4621687C1100C5520F /* EmbisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmbisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB35E4A21687C1100C5520F /* EmbisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbisUITests.swift; sourceTree = "<group>"; };
+		2FB35E4C21687C1100C5520F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB35E5921687CAB00C5520F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2FB35E5B21687CAF00C5520F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2FB35E5E21687D4200C5520F /* iBeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconManager.swift; sourceTree = "<group>"; };
+		2FF18F9121692CAA00B24461 /* ListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenViewController.swift; sourceTree = "<group>"; };
+		2FF18F9321692CBD00B24461 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		2FF18F9521694E1C00B24461 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		2FF18F9721695DED00B24461 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		496B08A1AAE4F7538C5BE1C4 /* Pods-EmbisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbisTests/Pods-EmbisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6658D416726767D6BED44BF3 /* Pods-Embis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Embis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Embis/Pods-Embis.release.xcconfig"; sourceTree = "<group>"; };
+		698551549EE1F80C947AE806 /* Pods-EmbisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbisUITests/Pods-EmbisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7730DBFB9DC57640F5B6DB61 /* Pods-EmbisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbisTests/Pods-EmbisTests.release.xcconfig"; sourceTree = "<group>"; };
+		C504081915648C2793E2D963 /* Pods_EmbisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmbisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0350CD695724D06DAB7952C /* Pods_Embis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Embis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D3A0B060ED0165F3567714 /* Pods-EmbisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbisUITests/Pods-EmbisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB35E2421687C0F00C5520F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF18F9621694E1C00B24461 /* MultipeerConnectivity.framework in Frameworks */,
+				2FB35E5C21687CAF00C5520F /* CoreBluetooth.framework in Frameworks */,
+				2FB35E5A21687CAB00C5520F /* CoreLocation.framework in Frameworks */,
+				9570907984BC3A78F33AEEDD /* Pods_Embis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E3821687C1100C5520F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4084B56FCA6E6A2E65842E7D /* Pods_EmbisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E4321687C1100C5520F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960669C2C8CF0FCE9E731567 /* Pods_EmbisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB35E1E21687C0F00C5520F = {
+			isa = PBXGroup;
+			children = (
+				2FB35E2921687C0F00C5520F /* Embis */,
+				2FB35E3E21687C1100C5520F /* EmbisTests */,
+				2FB35E4921687C1100C5520F /* EmbisUITests */,
+				2FB35E2821687C0F00C5520F /* Products */,
+				2FB35E5821687CAB00C5520F /* Frameworks */,
+				D6EFA51603DC993CC0E34E8D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB35E2821687C0F00C5520F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB35E2721687C0F00C5520F /* Embis.app */,
+				2FB35E3B21687C1100C5520F /* EmbisTests.xctest */,
+				2FB35E4621687C1100C5520F /* EmbisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB35E2921687C0F00C5520F /* Embis */ = {
+			isa = PBXGroup;
+			children = (
+				2FB35E2A21687C0F00C5520F /* AppDelegate.swift */,
+				2FB35E2C21687C0F00C5520F /* ViewController.swift */,
+				2FB35E2E21687C0F00C5520F /* Main.storyboard */,
+				2FB35E3121687C1100C5520F /* Assets.xcassets */,
+				2FB35E3321687C1100C5520F /* LaunchScreen.storyboard */,
+				2FB35E3621687C1100C5520F /* Info.plist */,
+				2FF18F9121692CAA00B24461 /* ListenViewController.swift */,
+				2FF18F9321692CBD00B24461 /* BroadcastViewController.swift */,
+				2FB35E5D21687D2B00C5520F /* helpers */,
+			);
+			path = Embis;
+			sourceTree = "<group>";
+		};
+		2FB35E3E21687C1100C5520F /* EmbisTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB35E3F21687C1100C5520F /* EmbisTests.swift */,
+				2FB35E4121687C1100C5520F /* Info.plist */,
+			);
+			path = EmbisTests;
+			sourceTree = "<group>";
+		};
+		2FB35E4921687C1100C5520F /* EmbisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB35E4A21687C1100C5520F /* EmbisUITests.swift */,
+				2FB35E4C21687C1100C5520F /* Info.plist */,
+			);
+			path = EmbisUITests;
+			sourceTree = "<group>";
+		};
+		2FB35E5821687CAB00C5520F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF18F9521694E1C00B24461 /* MultipeerConnectivity.framework */,
+				2FB35E5B21687CAF00C5520F /* CoreBluetooth.framework */,
+				2FB35E5921687CAB00C5520F /* CoreLocation.framework */,
+				D0350CD695724D06DAB7952C /* Pods_Embis.framework */,
+				C504081915648C2793E2D963 /* Pods_EmbisTests.framework */,
+				0E7FADD29403BE00E0EE26E3 /* Pods_EmbisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FB35E5D21687D2B00C5520F /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2FB35E5E21687D4200C5520F /* iBeaconManager.swift */,
+				2FF18F9721695DED00B24461 /* MessageService.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		D6EFA51603DC993CC0E34E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1055F7B01A9529E35B3A1D0D /* Pods-Embis.debug.xcconfig */,
+				6658D416726767D6BED44BF3 /* Pods-Embis.release.xcconfig */,
+				496B08A1AAE4F7538C5BE1C4 /* Pods-EmbisTests.debug.xcconfig */,
+				7730DBFB9DC57640F5B6DB61 /* Pods-EmbisTests.release.xcconfig */,
+				E4D3A0B060ED0165F3567714 /* Pods-EmbisUITests.debug.xcconfig */,
+				698551549EE1F80C947AE806 /* Pods-EmbisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB35E2621687C0F00C5520F /* Embis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB35E4F21687C1100C5520F /* Build configuration list for PBXNativeTarget "Embis" */;
+			buildPhases = (
+				885EAED2CABCAE1ECA2FD8AC /* [CP] Check Pods Manifest.lock */,
+				2FB35E2321687C0F00C5520F /* Sources */,
+				2FB35E2421687C0F00C5520F /* Frameworks */,
+				2FB35E2521687C0F00C5520F /* Resources */,
+				B58426934BC5D3D45A081189 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Embis;
+			productName = Embis;
+			productReference = 2FB35E2721687C0F00C5520F /* Embis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FB35E3A21687C1100C5520F /* EmbisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB35E5221687C1100C5520F /* Build configuration list for PBXNativeTarget "EmbisTests" */;
+			buildPhases = (
+				8DE48F80D3CFCEEC8A678E8C /* [CP] Check Pods Manifest.lock */,
+				2FB35E3721687C1100C5520F /* Sources */,
+				2FB35E3821687C1100C5520F /* Frameworks */,
+				2FB35E3921687C1100C5520F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB35E3D21687C1100C5520F /* PBXTargetDependency */,
+			);
+			name = EmbisTests;
+			productName = EmbisTests;
+			productReference = 2FB35E3B21687C1100C5520F /* EmbisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FB35E4521687C1100C5520F /* EmbisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB35E5521687C1100C5520F /* Build configuration list for PBXNativeTarget "EmbisUITests" */;
+			buildPhases = (
+				BE10BF658AEA04EFFFA11EA4 /* [CP] Check Pods Manifest.lock */,
+				2FB35E4221687C1100C5520F /* Sources */,
+				2FB35E4321687C1100C5520F /* Frameworks */,
+				2FB35E4421687C1100C5520F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB35E4821687C1100C5520F /* PBXTargetDependency */,
+			);
+			name = EmbisUITests;
+			productName = EmbisUITests;
+			productReference = 2FB35E4621687C1100C5520F /* EmbisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB35E1F21687C0F00C5520F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ninth Industry";
+				TargetAttributes = {
+					2FB35E2621687C0F00C5520F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2FB35E3A21687C1100C5520F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2FB35E2621687C0F00C5520F;
+					};
+					2FB35E4521687C1100C5520F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2FB35E2621687C0F00C5520F;
+					};
+				};
+			};
+			buildConfigurationList = 2FB35E2221687C0F00C5520F /* Build configuration list for PBXProject "Embis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB35E1E21687C0F00C5520F;
+			productRefGroup = 2FB35E2821687C0F00C5520F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB35E2621687C0F00C5520F /* Embis */,
+				2FB35E3A21687C1100C5520F /* EmbisTests */,
+				2FB35E4521687C1100C5520F /* EmbisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB35E2521687C0F00C5520F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB35E3521687C1100C5520F /* LaunchScreen.storyboard in Resources */,
+				2FB35E3221687C1100C5520F /* Assets.xcassets in Resources */,
+				2FB35E3021687C0F00C5520F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E3921687C1100C5520F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E4421687C1100C5520F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		885EAED2CABCAE1ECA2FD8AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Embis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE48F80D3CFCEEC8A678E8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmbisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58426934BC5D3D45A081189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Embis/Pods-Embis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MultiPeer/MultiPeer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MultiPeer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Embis/Pods-Embis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE10BF658AEA04EFFFA11EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmbisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB35E2321687C0F00C5520F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB35E2D21687C0F00C5520F /* ViewController.swift in Sources */,
+				2FF18F9821695DED00B24461 /* MessageService.swift in Sources */,
+				2FB35E2B21687C0F00C5520F /* AppDelegate.swift in Sources */,
+				2FB35E5F21687D4200C5520F /* iBeaconManager.swift in Sources */,
+				2FF18F9421692CBD00B24461 /* BroadcastViewController.swift in Sources */,
+				2FF18F9221692CAA00B24461 /* ListenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E3721687C1100C5520F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB35E4021687C1100C5520F /* EmbisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB35E4221687C1100C5520F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB35E4B21687C1100C5520F /* EmbisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB35E3D21687C1100C5520F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB35E2621687C0F00C5520F /* Embis */;
+			targetProxy = 2FB35E3C21687C1100C5520F /* PBXContainerItemProxy */;
+		};
+		2FB35E4821687C1100C5520F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB35E2621687C0F00C5520F /* Embis */;
+			targetProxy = 2FB35E4721687C1100C5520F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FB35E2E21687C0F00C5520F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB35E2F21687C0F00C5520F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FB35E3321687C1100C5520F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FB35E3421687C1100C5520F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FB35E4D21687C1100C5520F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB35E4E21687C1100C5520F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB35E5021687C1100C5520F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1055F7B01A9529E35B3A1D0D /* Pods-Embis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = Embis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.Embis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2FB35E5121687C1100C5520F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6658D416726767D6BED44BF3 /* Pods-Embis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = Embis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.Embis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2FB35E5321687C1100C5520F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496B08A1AAE4F7538C5BE1C4 /* Pods-EmbisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = EmbisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.EmbisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Embis.app/Embis";
+			};
+			name = Debug;
+		};
+		2FB35E5421687C1100C5520F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7730DBFB9DC57640F5B6DB61 /* Pods-EmbisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = EmbisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.EmbisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Embis.app/Embis";
+			};
+			name = Release;
+		};
+		2FB35E5621687C1100C5520F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D3A0B060ED0165F3567714 /* Pods-EmbisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = EmbisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.EmbisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Embis;
+			};
+			name = Debug;
+		};
+		2FB35E5721687C1100C5520F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698551549EE1F80C947AE806 /* Pods-EmbisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4843RP2R9;
+				INFOPLIST_FILE = EmbisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ninthindustry.EmbisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Embis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB35E2221687C0F00C5520F /* Build configuration list for PBXProject "Embis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB35E4D21687C1100C5520F /* Debug */,
+				2FB35E4E21687C1100C5520F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB35E4F21687C1100C5520F /* Build configuration list for PBXNativeTarget "Embis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB35E5021687C1100C5520F /* Debug */,
+				2FB35E5121687C1100C5520F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB35E5221687C1100C5520F /* Build configuration list for PBXNativeTarget "EmbisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB35E5321687C1100C5520F /* Debug */,
+				2FB35E5421687C1100C5520F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB35E5521687C1100C5520F /* Build configuration list for PBXNativeTarget "EmbisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB35E5621687C1100C5520F /* Debug */,
+				2FB35E5721687C1100C5520F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FB35E1F21687C0F00C5520F /* Project object */;
+}

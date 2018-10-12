@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.23.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9t2-MM-LXi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.16.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Embis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INs-mq-dFc">
+                                <rect key="frame" x="167" y="345" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Listen"/>
+                                <connections>
+                                    <action selector="iba_pushListenVC" destination="BYZ-38-t0r" eventType="touchUpInside" id="665-zi-ZIw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1o-ID-DP4">
+                                <rect key="frame" x="152" y="291" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Broadcast"/>
+                                <connections>
+                                    <action selector="iba_pushBroadcastVC" destination="BYZ-38-t0r" eventType="touchUpInside" id="1HD-T6-CUQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uzf-Op-Mqt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.79999999999995" y="43.628185907046479"/>
+        </scene>
+        <!--Broadcast View Controller-->
+        <scene sceneID="N8r-N0-gde">
+            <objects>
+                <viewController storyboardIdentifier="BroadcastViewController" id="SEs-Fr-siq" customClass="BroadcastViewController" customModule="Embis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7m5-oH-a5J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQ4-hx-bbC">
+                                <rect key="frame" x="125" y="80" width="125" height="125"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="SNk-kT-ekA"/>
+                                    <constraint firstAttribute="width" constant="125" id="e1j-ni-iTg"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="yfe-Hj-gBe">
+                                <rect key="frame" x="20" y="255" width="335" height="57"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkZ-vH-5xP">
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="🐶"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="fRw-jS-kzX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvP-QE-gtO">
+                                        <rect key="frame" x="56" y="0.0" width="55.5" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="🐱"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="gqm-MU-t3T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLE-Pl-o5e">
+                                        <rect key="frame" x="111.5" y="0.0" width="56" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="👉"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="nXH-Aa-9te"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ki-EA-p0f">
+                                        <rect key="frame" x="167.5" y="0.0" width="56" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="👇"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="1j2-pg-vW3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PB9-x5-0fn">
+                                        <rect key="frame" x="223.5" y="0.0" width="55.5" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="👈"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="kLI-ev-fxr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mw-7t-cEH">
+                                        <rect key="frame" x="279" y="0.0" width="56" height="57"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                        <state key="normal" title="👆"/>
+                                        <connections>
+                                            <action selector="iba_choseEmojiWithSender:" destination="SEs-Fr-siq" eventType="touchUpInside" id="iHa-wc-7sZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yQ4-hx-bbC" firstAttribute="top" secondItem="4yU-CY-hpe" secondAttribute="top" constant="60" id="lGG-P2-2cU"/>
+                            <constraint firstItem="yfe-Hj-gBe" firstAttribute="top" secondItem="yQ4-hx-bbC" secondAttribute="bottom" constant="50" id="mKJ-Mp-F55"/>
+                            <constraint firstItem="yfe-Hj-gBe" firstAttribute="leading" secondItem="4yU-CY-hpe" secondAttribute="leading" constant="20" id="n1h-Yi-cmP"/>
+                            <constraint firstItem="yQ4-hx-bbC" firstAttribute="centerX" secondItem="7m5-oH-a5J" secondAttribute="centerX" id="opg-6k-hNx"/>
+                            <constraint firstItem="4yU-CY-hpe" firstAttribute="trailing" secondItem="yfe-Hj-gBe" secondAttribute="trailing" constant="20" id="qaP-Q2-RCf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4yU-CY-hpe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JT7-U9-l2C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1672.8" y="43.628185907046479"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rAn-ai-OkP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9t2-MM-LXi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UF4-95-Zy5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="928-3k-Kt3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lnW-gG-eJo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="87" y="44"/>
+        </scene>
+        <!--Listen View Controller-->
+        <scene sceneID="upq-N3-Tr3">
+            <objects>
+                <viewController storyboardIdentifier="ListenViewController" id="pVH-tY-62z" customClass="ListenViewController" customModule="Embis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JFL-DP-21d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5C5-V6-R9m">
+                                <rect key="frame" x="20" y="569" width="335" height="58"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0B9-27-W0n">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAa-il-svb">
+                                        <rect key="frame" x="0.0" y="14.5" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6T-F2-xFG">
+                                        <rect key="frame" x="0.0" y="29" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prox:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKG-uh-DIq">
+                                        <rect key="frame" x="0.0" y="43.5" width="335" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8W-W9-qNf">
+                                <rect key="frame" x="40" y="60" width="295" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="212"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5C5-V6-R9m" firstAttribute="leading" secondItem="hID-iq-uBe" secondAttribute="leading" constant="20" id="2vY-kD-S65"/>
+                            <constraint firstItem="5C5-V6-R9m" firstAttribute="trailing" secondItem="hID-iq-uBe" secondAttribute="trailing" constant="-20" id="Bka-kj-soj"/>
+                            <constraint firstItem="K8W-W9-qNf" firstAttribute="top" secondItem="hID-iq-uBe" secondAttribute="top" constant="40" id="JDg-6W-htj"/>
+                            <constraint firstItem="K8W-W9-qNf" firstAttribute="leading" secondItem="hID-iq-uBe" secondAttribute="leading" constant="40" id="LAL-ST-mcp"/>
+                            <constraint firstItem="5C5-V6-R9m" firstAttribute="bottom" secondItem="hID-iq-uBe" secondAttribute="bottom" constant="-40" id="jE4-wi-UzE"/>
+                            <constraint firstItem="hID-iq-uBe" firstAttribute="trailing" secondItem="K8W-W9-qNf" secondAttribute="trailing" constant="40" id="pnT-55-Zuh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hID-iq-uBe"/>
+                    </view>
+                    <connections>
+                        <outlet property="ibo_beaconMajor" destination="AAa-il-svb" id="qZ3-mo-zAV"/>
+                        <outlet property="ibo_beaconMinor" destination="W6T-F2-xFG" id="xnT-oW-2aU"/>
+                        <outlet property="ibo_beaconName" destination="0B9-27-W0n" id="dwb-54-BgR"/>
+                        <outlet property="ibo_beaconProx" destination="HKG-uh-DIq" id="Nxc-Sk-aaG"/>
+                        <outlet property="ibo_selectedThang" destination="K8W-W9-qNf" id="2SE-qR-PcA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0G-Ng-9KB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2352.8000000000002" y="43.628185907046479"/>
+        </scene>
+    </scenes>
+</document>
